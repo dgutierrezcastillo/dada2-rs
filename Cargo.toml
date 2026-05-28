@@ -1,0 +1,17 @@
+[package]
+name = "dada2-rs"
+version = "0.1.0"
+edition = "2024"
+authors = ["Diego Gutierrez Castillo"]
+description = "A high-performance pure Rust port of the DADA2 amplicon denoising pipeline."
+license = "LGPL-3.0-only"
+readme = "README.md"
+repository = "https://github.com/dgutierrezcastillo/dada2-rs"
+
+[dependencies]
+needletail = "0.6.1"
+rayon = "1.10.0"
+clap = { version = "4.5.4", features = ["derive"] }
+ndarray = "0.15.6"
+statrs = "0.17.1"
+anyhow = "1.0.86"
